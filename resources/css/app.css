@@ -1,0 +1,27 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+:root { --ink: #202a26; --forest: #243b32; --paper: #f7f6f1; --accent: #c58b58; }
+body { color: var(--ink); background: #fff; font-family: Georgia, 'Times New Roman', serif; }
+.site-navbar { background: var(--forest); padding: 1.1rem 0; font-family: Arial, sans-serif; }
+.navbar-brand { letter-spacing: .13em; font-size: .95rem; }
+.brand-dot { color: #e7b27e; }
+.nav-link { color: rgba(255,255,255,.78); }
+.nav-link:hover { color: #fff; }
+.hero-section { background: linear-gradient(90deg, rgba(22,43,35,.94), rgba(22,43,35,.48)), url('https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=1800') center/cover; }
+.min-vh-50 { min-height: 480px; }
+.eyebrow { color: #a87549; font: 700 .72rem/1.4 Arial, sans-serif; letter-spacing: .18em; }
+.hero-section .eyebrow { color: #e7b27e; }
+.hero-section h1 { line-height: .98; }
+.section-heading h2, .page-intro h1 { color: var(--forest); }
+.article-card { border-radius: 1rem; overflow: hidden; box-shadow: 0 8px 30px rgba(25,40,32,.08); transition: transform .2s ease, box-shadow .2s ease; }
+.article-card:hover { transform: translateY(-4px); box-shadow: 0 14px 34px rgba(25,40,32,.13); }
+.article-image { height: 220px; object-fit: cover; }
+.category-tag { display: inline-block; padding: .35rem .7rem; border-radius: 2rem; background: #f2ece4; color: #8a5b34; font: 700 .68rem Arial, sans-serif; text-transform: uppercase; letter-spacing: .08em; }
+.article-title-link { color: var(--ink); text-decoration: none; }
+.article-title-link:hover, .read-link:hover { color: #9a6338; }
+.read-link, .back-link { color: #8a5b34; font: 700 .85rem Arial, sans-serif; text-decoration: none; }
+.page-intro { background: var(--paper); }
+.detail-image { max-height: 480px; object-fit: cover; }
+.article-content { font-size: 1.2rem; line-height: 1.9; color: #4c5550; }
+.site-footer { background: var(--forest); color: rgba(255,255,255,.7); padding: 1.5rem 0; font: .85rem Arial, sans-serif; }
+@media (max-width: 767px) { .hero-section h1 { font-size: 3.5rem; } .min-vh-50 { min-height: 390px; } }
